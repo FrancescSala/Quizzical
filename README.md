@@ -43,6 +43,7 @@ ___
 ## Functional Description
 ### Application screens / User Manual
 `Initial screen`
+
 ![Initial screen of the application](/documentation_images/00_InitialScreen.png)
 
 Here the user must choose a topic from the list of topics, and then press the button "Start Quiz", as explained in the instructions on the screen.
@@ -52,23 +53,31 @@ If no topic is chosen, nothing happens.
 The first value in the list of topics, "Random topic from the list below", is not a real topic: if user chooses this option, the application decides which topic the quiz will be about.
 
 `Loading screen`
+
 ![Loading questions from server](/documentation_images/01_Loading.png)
+
 After having selected any option from the list and press Start button, the application shows a loading screen as the one below. This indicates that the application is retrieving the questions (5 questions about the chosen topic).
 Questions are retrieved from the Open Trivia Data Base server, publishec on the internet.
 The loading screen can display less than one seconds or longer, depending on the available internet connection and how busy is the server.
 
 `Questions screen`
+
 ![Screen with list of questions](/documentation_images/02_QuizQuestions.png)
+
 When the questions retrieved from the server, the application displays them.
 Now the user can select his/her answers.
 
 `Questions with user's answers`
+
 ![Questions answered by user](/documentation_images/03_QuizAnswers.png)
+
 User's answers are marked in a different colour.
 When user has finished, he/she presses the button "Check answers". The application does not require to answer all questions. But of course, unanswered questions will not be counted as correct.
 
 `Corrected answers`
+
 ![Questions with corrected answers](/documentation_images/04_QuizCorrections.png)
+
 Once "Check answers" is pressed, the application shows the corrections:
 - if the answer by the user is incorrect, it is marked with pink/redish colour.
 - right answers are marked in green color.
@@ -81,15 +90,20 @@ The application counts how many answers were correct, and offers two possibiliti
 - play again choosing a different topic, which leads to .
 
 `Congratulations`
+
 ![Celebration Screen](/documentation_images/05_Congratulation.png)
+
 Every time user answers all questions corrected, a rain of confetti is displayed.
 
 `Error Screen`
+
 ![Screen when errors](/documentation_images/06_Error.png)
+
 If when retrieving questions from the server there is any error, error information is displayed on the screen.
 
 ### Navigation diagram
  The diagram below shows the navigation between the diferent screens. Arrows are events.
+
 ![Navigation diagram](/documentation_images/navigation.png)
 
 ___
