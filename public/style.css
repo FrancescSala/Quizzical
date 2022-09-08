@@ -1,0 +1,147 @@
+body {
+    background-color: white;
+}
+
+button {
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    border: none;
+    border-radius: 10px;
+    width: 104px;
+    height: 30px;
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.init--container {
+    background-size:cover;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.init--title {
+    font-family: 'Karla', sans-serif;
+    font-style: bold;
+    font-size: 31px;
+}
+
+.init--topics {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.init--topiclabel {
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    color: #293264;
+    text-align: center;
+}
+
+.init--topicselection {
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 400;
+    color: #293264;
+}
+
+.init--description, .quiz--errortext {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    color: #293264;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+.init--button {
+    width: 193px;
+    height: 52px;
+    font-size: 16px;
+}
+
+.quiz--container {
+    background-color: #F5F7FB;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz--group {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz--loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz--loading--text {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.quiz--answers {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.quiz--answer {
+    font-family: 'Inter';
+    font-size: 10px;
+    border: 1px solid #4D5B9E;
+    border-radius: 3px;
+    padding: 0px 5px; 
+    min-width: 60px;
+    text-align: center;
+    user-select: none;
+}
+
+.quiz--question, .quiz--errortitle {
+    font-family: 'Karla', sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.quiz--lineseparator {
+    border-top: 1px solid #DBDEF0;
+    width: 450px; /* to occupy all the width od .quiz--group */ 
+}
+
+.quiz--bottombar {
+    display: flex;
+    flex-direction: horizontal;
+    gap: 10px;
+    align-items: center;
+}
+
+.quiz--resulttext {
+    font-family: 'Inter';
+    font-style: bold;
+    font-size: 13px;
+}
+
+.quiz--button {
+    align-self: center;
+    font-size: 10px;
+}
