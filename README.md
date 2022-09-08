@@ -136,13 +136,13 @@ The following table lists the React components in the application and for which 
 
 
 SCREENS VS COMPONENTS | Initial Screen | Loading Screen | Questions Screen | Questions with user's answers | Corrected Answers | Congratulations | Error Screen 
---- | --- | --- | --- |--- |--- |--- |--- 
-App.js | <center>&#9679;</center> |  | <center>&#9679;</center> |  |  |  |  
-InitialScreen.js | <center>&#9679;</center> |  |  |  |  |  |  
-QuizScreen.js |  |  | <center>&#9679;</center> | <center>&#9679;</center> | <center>&#9679;</center> | <center>&#9679;</center> | <center>&#9679;</center> 
-QuizQuestions.js |  |  | <center>&#9679;</center> | <center>&#9679;</center> | <center>&#9679;</center> | <center>&#9679;</center> | <center>&#9679;</center> 
-Confetti.js |  |  |  |  |  | <center>&#9679;</center> |  
-Spinner.js |  | <center>&#9679;</center> |  |  |  |  |  
+:--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: 
+App.js | &#9679; |  | &#9679; |  |  |  |  
+InitialScreen.js | &#9679; |  |  |  |  |  |  
+QuizScreen.js |  |  | &#9679; | &#9679; | &#9679; | &#9679; | &#9679; 
+QuizQuestions.js |  |  | &#9679; | &#9679; | &#9679; | &#9679; | &#9679; 
+Confetti.js |  |  |  |  |  | &#9679; |  
+Spinner.js |  | &#9679; |  |  |  |  |  
 
 Note that, even though I am writting all time about screens, the application is a single page app.
 
