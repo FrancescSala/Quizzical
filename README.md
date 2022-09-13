@@ -166,6 +166,7 @@ To install the application locally in your computer, follow these steps:
 2. In the app folder run `npm install`, which will install all the dependencies.
 3. Finally run `npm start`. This starts the application in development mode. A browser will start, running the application. If not, open your browser en introduce the URL localhost:3000
 
+Note: While developing this, my version of npom and npx was 8.5.5.
 ___
 
 ## Available Scripts
